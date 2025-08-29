@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"   # or "bun run build" if you prefer bun
+  publish = "dist"            # Vite outputs here by default
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
